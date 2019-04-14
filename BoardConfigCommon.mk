@@ -47,7 +47,8 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 NEED_KERNEL_MODULE_SYSTEM := true
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/oneplus/nePlus6T-LZ
+TARGET_KERNEL_SOURCE := kernel/oneplus/OnePlus6T-LZ
+KERNEL_TOOLCHAIN := /media/Dev/Toolchains/linaro/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Platform
