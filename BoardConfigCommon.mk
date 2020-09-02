@@ -51,10 +51,10 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 NEED_KERNEL_MODULE_SYSTEM := true
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := kronic_defconfig
-TARGET_KERNEL_SOURCE := kernel/oneplus/sdm845
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := proton
+TARGET_KERNEL_CONFIG := lightningzap_defconfig
+TARGET_KERNEL_SOURCE := kernel/oneplus/op6t-lz-10
+KERNEL_TOOLCHAIN := /home/thomas/Android/kernels/Toolchains/linaro/bin/
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
