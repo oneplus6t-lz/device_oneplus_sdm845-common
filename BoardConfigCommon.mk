@@ -53,8 +53,13 @@ NEED_KERNEL_MODULE_SYSTEM := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := lightningzap_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/op6t-lz-10
+<<<<<<< HEAD
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
+=======
+KERNEL_TOOLCHAIN := /home/thomas/Android/kernels/Toolchains/linaro/bin/
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+>>>>>>> 0ce2d944f010a1347fb181fd06b0783848cce764
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
