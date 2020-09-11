@@ -4,14 +4,15 @@
     "target_path" : "device/oneplus/common"
   },
   {
-    "repository"  : "kdrag0n/proton-clang",
-    "branch"      : "master",
+    "repository"  : "mcdachpappe/mcd-clang",
+    "branch"      : "v12",
     "remote"      : "github",
     "clone_depth" : "1",
-    "target_path" : "prebuilts/clang/host/clang-proton"
+    "target_path" : "prebuilts/clang/host/clang-mcd"
   },
   {
     "repository"  : "kernel_oneplus_sdm845",
+    "branch"      : "ten-mcd",
     "target_path" : "kernel/oneplus/sdm845"
   },
   {
