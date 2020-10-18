@@ -16,8 +16,10 @@
     "target_path" : "kernel/oneplus/sdm845"
   },
   {
-    "repository"  : "vendor_addons_google_camera",
-    "target_path" : "vendor/addons/google/camera"
+    "repository"  : "Inkypen79/packages_apps_GoogleCamera",
+    "branch"      : "ten",
+    "remote"      : "github",
+    "target_path" : "packages/apps/GoogleCamera"
   },
   {
     "repository"  : "vendor_addons_oneplus_camera",
