@@ -54,7 +54,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := lightningzap_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/op6t-lz-10
 KERNEL_TOOLCHAIN := $(TC_PATH)
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
